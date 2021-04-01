@@ -1,0 +1,34 @@
+#div{
+    display: block;
+    position: absolute;
+    text-align: center;
+    top:30%;
+    left:30%;
+    width:40%;
+    height:30%;
+    border-radius: 20px;
+    border: darkslategray solid 2px;
+    background-color: #d3d0d0;
+}
+#buttonBg{
+    position:relative;
+    border: darkslategray solid 2px;
+    border-radius: 10px;
+    width:40px;
+    margin-left: 45%;
+    background-color: gray;
+}
+button{
+    position: relative;
+    left:10px;
+    width:20px;
+    height:20px;
+    border-radius: 10px;
+    transition: left 0.5s;
+    outline: none;
+    
+}
+button:active{
+    left:-10px;
+    transition-timing-function: ease;
+}
